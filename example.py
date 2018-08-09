@@ -10,7 +10,7 @@ from pandas.io.json import json_normalize
 
 
 #get Distrubtion summary by Survey
-jsonData = version3.qualtrics(survey="suvrey_id").getListDistributions()
+jsonData = version3.qualtrics(survey="survey_id").getListDistributions()
 
 #gets the distribution summary for only one distrubtion ID. (kind of pointless)
 jsonData = version3.qualtrics(survey="surveyID").getDistributions(distributionId="distributionID")
